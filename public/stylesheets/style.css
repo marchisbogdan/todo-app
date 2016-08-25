@@ -1,0 +1,44 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-sherif; }
+  body .navbar-default {
+    background-image: none;
+    background-color: #e74c3c;
+    border-color: #c0392b; }
+    body .navbar-default .navbar-brand {
+      color: #ecf0f1; }
+      body .navbar-default .navbar-brand:focus, body .navbar-default .navbar-brand:hover {
+        cursor: default;
+        color: #ecf0f1; }
+  body .navbar-brand {
+    color: #ecf0f1;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+    font-size: 25px; }
+    body .navbar-brand:focus, body .navbar-brand:hover {
+      cursor: default;
+      color: #ecf0f1; }
+  body .todos {
+    margin-top: 20px; }
+  body .todo-text {
+    font-style: italic; }
+  body a {
+    color: #00B7FF;
+    text-decoration: none;
+    cursor: pointer; }
+    body a:hover {
+      text-decoration: underline; }
+  body h1 {
+    font-style: italic; }
+  body ul {
+    list-style-type: none; }
+    body ul .checked {
+      text-decoration: line-through; }
+  body .footer dvi {
+    float: left;
+    padding: 0 10px; }
+  body .hide {
+    display: none; }
